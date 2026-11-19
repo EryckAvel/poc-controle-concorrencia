@@ -14,7 +14,7 @@ public class Saldo {
     private Long id;
     private String nome;
     private BigDecimal saldo;
-//    @Version
+    @Version
     private Integer version;
 
     public Saldo() {
